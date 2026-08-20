@@ -1,0 +1,38 @@
+{
+  "timestamp": "2026-08-20 14:37:09 IST",
+  "spot": 24310.0,
+  "bias": {
+    "score": -45,
+    "sentiment": "Moderately Bearish",
+    "conviction": 78,
+    "invalidation": 24337
+  },
+  "expected_range": {
+    "low": 24099,
+    "high": 24521,
+    "band_pts": 422
+  },
+  "volatility": {
+    "vix": 13.82,
+    "atm_iv": 13.8,
+    "iv_rank": 22,
+    "regime": "Cheap (Favor Debit Spreads)"
+  },
+  "derivatives": {
+    "pcr": 0.74,
+    "atm_strike": 24300,
+    "gex_flip": 24323
+  },
+  "cpr": {
+    "pivot": 24303,
+    "tc": 24307,
+    "bc": 24300,
+    "width": 7,
+    "type": "Narrow CPR (Trending Alert)"
+  },
+  "macros": {
+    "dxy": 98.82,
+    "crude": 93.16,
+    "us10y": 4.69
+  }
+}
