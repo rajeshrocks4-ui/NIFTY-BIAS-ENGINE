@@ -1,0 +1,37 @@
+name: Free Nifty Bias Data Pipeline
+
+on:
+  schedule:
+    # Runs at 6:00 PM IST (12:30 UTC) - EOD Analysis (Monday to Friday)
+    - cron: '30 12 * * 1-5'
+    # Runs at 8:15 AM IST (02:45 UTC) - Pre-Market Analysis (Monday to Friday)
+    - cron: '45 2 * * 1-5'
+  workflow_dispatch:
+
+jobs:
+  update-bias-data:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install Free Dependencies
+        run: |
+          pip install requests yfinance pandas
+
+      - name: Execute Quant Data Engine
+        run: |
+          python fetch_nifty_bias.py
+
+      - name: Commit & Push Updated Data
+        run: |
+          git config --global user.name "NiftyBot"
+          git config --global user.email "bot@niftybias.local"
+          git add nifty_bias_data.json
+          git commit -m "Auto-update Nifty Bias Data [skip ci]" || exit 0
+          git push
