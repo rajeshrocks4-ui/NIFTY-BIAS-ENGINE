@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-08-21 03:36:52 IST",
+  "timestamp": "2026-08-21 13:27:31 IST",
   "spot": 24310.0,
   "bias": {
     "score": -45,
@@ -31,8 +31,8 @@
     "type": "Narrow CPR (Trending Alert)"
   },
   "macros": {
-    "dxy": 98.73,
-    "crude": 93.6,
-    "us10y": NaN
+    "dxy": 98.75,
+    "crude": 94.12,
+    "us10y": 4.71
   }
 }
