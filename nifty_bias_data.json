@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-08-23 02:19:49 IST",
+  "timestamp": "2026-08-23 09:12:10 IST",
   "nse_live": false,
   "spot": 24252.0,
   "futures": {
@@ -15,7 +15,7 @@
       "pcr_signal": -25,
       "basis_signal": 6,
       "vix_signal": 0,
-      "cpr_signal": 15,
+      "fii_signal": 15,
       "maxpain_signal": 0,
       "macro_signal": -10
     }
@@ -41,6 +41,23 @@
     "gex_flip": 24229,
     "top_oi_delta": []
   },
+  "institutional": {
+    "source": "unavailable",
+    "fii_long_pct": 0,
+    "trap_alert": "Run from Indian IP for participant data.",
+    "fii": {
+      "sentiment": "Unknown"
+    },
+    "pro": {
+      "sentiment": "Unknown"
+    },
+    "client": {
+      "sentiment": "Unknown"
+    },
+    "dii": {
+      "sentiment": "Unknown"
+    }
+  },
   "cpr": {
     "pivot": 24227.18,
     "tc": 24229.51,
@@ -63,11 +80,11 @@
   },
   "strategy": {
     "name": "Iron Condor",
-    "type": "Non-Directional (Neutral Bias + Theta Decay)",
-    "legs": "Sell 24450 CE / Buy 24550 CE  +  Sell 24050 PE / Buy 23950 PE",
-    "entry": "09:30 to 10:00 AM after Initial Balance forms",
-    "target": "60-70% of max premium collected",
-    "sl": "Any short leg breaches its strike",
+    "type": "Non-Directional (Theta Decay)",
+    "legs": "Sell 24450 CE / Buy 24550 CE + Sell 24050 PE / Buy 23950 PE",
+    "entry": "09:30-10:00 AM after IB forms",
+    "target": "60-70% of max premium",
+    "sl": "Short leg breached",
     "rr": "1:1.5",
     "greeks": {
       "delta": 0.02,
