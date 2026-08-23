@@ -1,3 +1,4 @@
+
 """
 NIFTY NEXT-DAY BIAS ENGINE v3 (Clean Full Edition)
 =====================================================
@@ -566,4 +567,12 @@ def fetch_and_compute():
 
     print("\n" + "=" * 55)
     print("  nifty_bias_data.json  written successfully!")
-    print(f"  NSE Live Data : {'YES' if nse_ok else
+    print(f"  NSE Live Data : {'YES' if nse_ok else 'NO (Yahoo Finance fallback)'}")
+    print(f"  Spot          : {output['spot']}")
+    print(f"  Bias Score    : {composite}  ({sentiment})")
+    print(f"  Strategy      : {strategy['name']}")
+    print("=" * 55 + "\n")
+
+
+if __name__ == "__main__":
+    fetch_and_compute()
