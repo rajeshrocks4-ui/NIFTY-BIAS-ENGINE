@@ -1,38 +1,78 @@
 {
-  "timestamp": "2026-08-21 13:27:31 IST",
-  "spot": 24310.0,
+  "timestamp": "2026-08-23 02:08:52 IST",
+  "nse_live": false,
+  "spot": 24252.0,
+  "futures": {
+    "price": 24267.0,
+    "basis_pct": 0.062
+  },
   "bias": {
-    "score": -45,
-    "sentiment": "Moderately Bearish",
-    "conviction": 78,
-    "invalidation": 24337
+    "score": -4,
+    "sentiment": "Neutral / Rangebound",
+    "conviction": 52,
+    "invalidation": 24270,
+    "factors": {
+      "pcr_signal": -25,
+      "basis_signal": 6,
+      "vix_signal": 0,
+      "cpr_signal": 15,
+      "maxpain_signal": 0,
+      "macro_signal": 0
+    }
   },
   "expected_range": {
-    "low": 24099,
-    "high": 24521,
-    "band_pts": 422
+    "low": 24038,
+    "high": 24466,
+    "band_pts": 428
   },
   "volatility": {
-    "vix": 13.82,
-    "atm_iv": 13.8,
-    "iv_rank": 22,
-    "regime": "Cheap (Favor Debit Spreads)"
+    "vix": 11.2,
+    "vix_change": 0.0,
+    "atm_iv": 14.0,
+    "iv_rank": 4,
+    "regime": "Cheap IV (Favor Debit Spreads)"
   },
   "derivatives": {
-    "pcr": 0.74,
-    "atm_strike": 24300,
-    "gex_flip": 24323
+    "pcr_oi": 0.74,
+    "pcr_chg": 0.53,
+    "atm_strike": 24250,
+    "max_pain": 24250,
+    "max_pain_dist": -2,
+    "gex_flip": 24229,
+    "top_oi_delta": []
   },
   "cpr": {
-    "pivot": 24303,
-    "tc": 24307,
-    "bc": 24300,
-    "width": 7,
-    "type": "Narrow CPR (Trending Alert)"
+    "pivot": 24227.18,
+    "tc": 24229.51,
+    "bc": 24224.85,
+    "width": 4.66,
+    "type": "Narrow CPR (Trending Day Alert)",
+    "pdh": 24265.15,
+    "pdl": 24184.55,
+    "pdc": 24231.85,
+    "cam_h4": 24276.18,
+    "cam_h3": 24254.01,
+    "cam_l3": 24209.68,
+    "cam_l4": 24187.52
   },
   "macros": {
-    "dxy": 98.75,
-    "crude": 94.12,
-    "us10y": 4.71
+    "dxy": NaN,
+    "crude": NaN,
+    "us10y": NaN,
+    "usdinr": 95.71
+  },
+  "strategy": {
+    "name": "Iron Condor",
+    "type": "Non-Directional (Neutral Bias + Theta Decay)",
+    "legs": "Sell 24450 CE / Buy 24550 CE + Sell 24050 PE / Buy 23950 PE",
+    "entry": "09:30 to 10:00 AM after IB forms",
+    "target": "60-70% of max premium",
+    "sl": "Any leg breaches short strike",
+    "rr": "1:1.5",
+    "greeks": {
+      "delta": 0.02,
+      "theta": 18.0,
+      "vega": -6.2
+    }
   }
 }
