@@ -1,28 +1,28 @@
 {
-  "timestamp": "2026-08-24 08:54:19 IST",
+  "timestamp": "2026-08-24 03:39:47 IST",
   "nse_live": false,
-  "spot": 24252.0,
+  "spot": 24285.05,
   "futures": {
-    "price": 24267.0,
+    "price": 24300.05,
     "basis_pct": 0.062
   },
   "bias": {
     "score": -14,
     "sentiment": "Neutral / Rangebound",
     "conviction": 57,
-    "invalidation": 24270,
+    "invalidation": 24290,
     "factors": {
       "pcr_signal": -25,
       "basis_signal": 6,
       "vix_signal": 0,
-      "fii_signal": 15,
+      "cpr_signal": 15,
       "maxpain_signal": 0,
       "macro_signal": -10
     }
   },
   "expected_range": {
-    "low": 24038,
-    "high": 24466,
+    "low": 24071,
+    "high": 24499,
     "band_pts": 428
   },
   "volatility": {
@@ -35,56 +35,39 @@
   "derivatives": {
     "pcr_oi": 0.74,
     "pcr_chg": 0.53,
-    "atm_strike": 24250,
-    "max_pain": 24250,
-    "max_pain_dist": -2,
-    "gex_flip": 24229,
+    "atm_strike": 24300,
+    "max_pain": 24300,
+    "max_pain_dist": 15,
+    "gex_flip": 24249,
     "top_oi_delta": []
   },
-  "institutional": {
-    "source": "unavailable",
-    "fii_long_pct": 0,
-    "trap_alert": "Run from Indian IP for participant data.",
-    "fii": {
-      "sentiment": "Unknown"
-    },
-    "pro": {
-      "sentiment": "Unknown"
-    },
-    "client": {
-      "sentiment": "Unknown"
-    },
-    "dii": {
-      "sentiment": "Unknown"
-    }
-  },
   "cpr": {
-    "pivot": 24227.18,
-    "tc": 24229.51,
-    "bc": 24224.85,
-    "width": 4.66,
+    "pivot": 24247.62,
+    "tc": 24249.82,
+    "bc": 24245.42,
+    "width": 4.4,
     "type": "Narrow CPR (Trending Day Alert)",
-    "pdh": 24265.15,
-    "pdl": 24184.55,
-    "pdc": 24231.85,
-    "cam_h4": 24276.18,
-    "cam_h3": 24254.01,
-    "cam_l3": 24209.68,
-    "cam_l4": 24187.52
+    "pdh": 24284.05,
+    "pdl": 24206.8,
+    "pdc": 24252.0,
+    "cam_h4": 24294.49,
+    "cam_h3": 24273.24,
+    "cam_l3": 24230.76,
+    "cam_l4": 24209.51
   },
   "macros": {
     "dxy": 98.82,
-    "crude": 93.16,
+    "crude": 93.1,
     "us10y": 4.74,
-    "usdinr": 95.68
+    "usdinr": 95.65
   },
   "strategy": {
     "name": "Iron Condor",
-    "type": "Non-Directional (Theta Decay)",
-    "legs": "Sell 24450 CE / Buy 24550 CE + Sell 24050 PE / Buy 23950 PE",
-    "entry": "09:30-10:00 AM after IB forms",
-    "target": "60-70% of max premium",
-    "sl": "Short leg breached",
+    "type": "Non-Directional (Neutral Bias + Theta Decay)",
+    "legs": "Sell 24500 CE / Buy 24600 CE  +  Sell 24100 PE / Buy 24000 PE",
+    "entry": "09:30 to 10:00 AM after Initial Balance forms",
+    "target": "60-70% of max premium collected",
+    "sl": "Any short leg breaches its strike",
     "rr": "1:1.5",
     "greeks": {
       "delta": 0.02,
