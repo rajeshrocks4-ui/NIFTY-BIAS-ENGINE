@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-08-23 09:12:10 IST",
+  "timestamp": "2026-08-24 08:54:19 IST",
   "nse_live": false,
   "spot": 24252.0,
   "futures": {
@@ -73,10 +73,10 @@
     "cam_l4": 24187.52
   },
   "macros": {
-    "dxy": 98.8,
-    "crude": 94.39,
+    "dxy": 98.82,
+    "crude": 93.16,
     "us10y": 4.74,
-    "usdinr": 95.71
+    "usdinr": 95.68
   },
   "strategy": {
     "name": "Iron Condor",
