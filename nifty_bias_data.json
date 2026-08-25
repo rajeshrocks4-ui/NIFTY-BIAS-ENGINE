@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-08-24 13:32:03 IST",
+  "timestamp": "2026-08-25 03:33:43 IST",
   "nse_live": false,
   "spot": 24219.05,
   "futures": {
@@ -26,7 +26,7 @@
     "band_pts": 428
   },
   "volatility": {
-    "vix": 11.52,
+    "vix": 11.53,
     "vix_change": 0.0,
     "atm_iv": 14.0,
     "iv_rank": 6,
@@ -56,10 +56,10 @@
     "cam_l4": 24209.51
   },
   "macros": {
-    "dxy": 98.91,
-    "crude": 93.41,
-    "us10y": 4.72,
-    "usdinr": 95.74
+    "dxy": 99.04,
+    "crude": 92.38,
+    "us10y": 4.7,
+    "usdinr": 95.72
   },
   "strategy": {
     "name": "Bear Put Debit Spread",
