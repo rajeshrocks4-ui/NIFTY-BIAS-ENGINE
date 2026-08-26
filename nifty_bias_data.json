@@ -1,16 +1,16 @@
 {
-  "timestamp": "2026-08-25 13:29:59 IST",
+  "timestamp": "2026-08-26 03:40:29 IST",
   "nse_live": false,
-  "spot": 24334.55,
+  "spot": 24341.95,
   "futures": {
-    "price": 24349.55,
+    "price": 24356.95,
     "basis_pct": 0.062
   },
   "bias": {
     "score": -14,
     "sentiment": "Neutral / Rangebound",
     "conviction": 57,
-    "invalidation": 24262,
+    "invalidation": 24338,
     "factors": {
       "pcr_signal": -25,
       "basis_signal": 6,
@@ -21,12 +21,12 @@
     }
   },
   "expected_range": {
-    "low": 24120,
-    "high": 24550,
+    "low": 24127,
+    "high": 24557,
     "band_pts": 430
   },
   "volatility": {
-    "vix": 11.07,
+    "vix": 11.08,
     "vix_change": 0.0,
     "atm_iv": 14.0,
     "iv_rank": 4,
@@ -37,29 +37,29 @@
     "pcr_chg": 0.53,
     "atm_strike": 24350,
     "max_pain": 24350,
-    "max_pain_dist": 15,
-    "gex_flip": 24224,
+    "max_pain_dist": 8,
+    "gex_flip": 24283,
     "top_oi_delta": []
   },
   "cpr": {
-    "pivot": 24225.45,
-    "tc": 24222.25,
-    "bc": 24228.65,
-    "width": 6.4,
-    "type": "Narrow CPR (Trending Day Alert)",
-    "pdh": 24313.0,
-    "pdl": 24144.3,
-    "pdc": 24219.05,
-    "cam_h4": 24311.83,
-    "cam_h3": 24265.44,
-    "cam_l3": 24172.66,
-    "cam_l4": 24126.26
+    "pivot": 24261.52,
+    "tc": 24298.04,
+    "bc": 24225.0,
+    "width": 73.04,
+    "type": "Wide CPR (Rangebound Day)",
+    "pdh": 24334.55,
+    "pdl": 24115.45,
+    "pdc": 24334.55,
+    "cam_h4": 24455.06,
+    "cam_h3": 24394.8,
+    "cam_l3": 24274.3,
+    "cam_l4": 24214.04
   },
   "macros": {
-    "dxy": 98.94,
-    "crude": 87.89,
-    "us10y": 4.65,
-    "usdinr": 95.41
+    "dxy": 98.96,
+    "crude": 85.2,
+    "us10y": 4.64,
+    "usdinr": 95.4
   },
   "strategy": {
     "name": "Iron Condor",
