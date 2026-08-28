@@ -1,16 +1,16 @@
 {
-  "timestamp": "2026-08-27 22:30:43 IST",
+  "timestamp": "2026-08-28 14:36:14 IST",
   "nse_live": false,
-  "spot": 24207.75,
+  "spot": 24175.65,
   "futures": {
-    "price": 24222.75,
+    "price": 24190.65,
     "basis_pct": 0.062
   },
   "bias": {
     "score": -44,
     "sentiment": "Strongly Bearish",
     "conviction": 72,
-    "invalidation": 24338,
+    "invalidation": 24165,
     "factors": {
       "pcr_signal": -25,
       "basis_signal": 6,
@@ -21,12 +21,12 @@
     }
   },
   "expected_range": {
-    "low": 23995,
-    "high": 24421,
+    "low": 23963,
+    "high": 24389,
     "band_pts": 426
   },
   "volatility": {
-    "vix": 10.57,
+    "vix": 10.68,
     "vix_change": 0.0,
     "atm_iv": 14.0,
     "iv_rank": 2,
@@ -37,29 +37,29 @@
     "pcr_chg": 0.53,
     "atm_strike": 24200,
     "max_pain": 24200,
-    "max_pain_dist": -8,
-    "gex_flip": 24283,
+    "max_pain_dist": 24,
+    "gex_flip": 24139,
     "top_oi_delta": []
   },
   "cpr": {
-    "pivot": 24261.52,
-    "tc": 24298.04,
-    "bc": 24225.0,
-    "width": 73.04,
+    "pivot": 24159.72,
+    "tc": 24125.29,
+    "bc": 24194.15,
+    "width": 68.86,
     "type": "Wide CPR (Rangebound Day)",
-    "pdh": 24334.55,
-    "pdl": 24115.45,
-    "pdc": 24334.55,
-    "cam_h4": 24455.06,
-    "cam_h3": 24394.8,
-    "cam_l3": 24274.3,
-    "cam_l4": 24214.04
+    "pdh": 24297.45,
+    "pdl": 24090.85,
+    "pdc": 24090.85,
+    "cam_h4": 24204.48,
+    "cam_h3": 24147.67,
+    "cam_l3": 24034.03,
+    "cam_l4": 23977.22
   },
   "macros": {
-    "dxy": 99.13,
-    "crude": 88.62,
-    "us10y": 4.67,
-    "usdinr": 95.53
+    "dxy": 99.54,
+    "crude": 87.77,
+    "us10y": 4.69,
+    "usdinr": 95.37
   },
   "strategy": {
     "name": "Bear Put Debit Spread",
