@@ -1,9 +1,9 @@
 {
-  "timestamp": "2026-09-01 07:59:45 IST",
+  "timestamp": "2026-09-01 16:51:03 IST",
   "nse_live": false,
-  "spot": 24049.6,
+  "spot": 24055.8,
   "futures": {
-    "price": 24064.6,
+    "price": 24070.8,
     "basis_pct": 0.062
   },
   "bias": {
@@ -21,15 +21,15 @@
     }
   },
   "expected_range": {
-    "low": 23838,
-    "high": 24262,
+    "low": 23844,
+    "high": 24268,
     "band_pts": 424
   },
   "volatility": {
-    "vix": 10.79,
+    "vix": 11.19,
     "vix_change": 0.0,
     "atm_iv": 14.0,
-    "iv_rank": 3,
+    "iv_rank": 4,
     "regime": "Cheap IV (Favor Debit Spreads)"
   },
   "derivatives": {
@@ -37,7 +37,7 @@
     "pcr_chg": 0.53,
     "atm_strike": 24050,
     "max_pain": 24050,
-    "max_pain_dist": 0,
+    "max_pain_dist": -6,
     "gex_flip": 24071,
     "top_oi_delta": []
   },
@@ -56,10 +56,10 @@
     "cam_l4": 24006.1
   },
   "macros": {
-    "dxy": 99.59,
-    "crude": 91.77,
-    "us10y": 4.76,
-    "usdinr": 94.9
+    "dxy": 99.65,
+    "crude": 94.02,
+    "us10y": 4.79,
+    "usdinr": 94.94
   },
   "strategy": {
     "name": "Bear Put Debit Spread",
