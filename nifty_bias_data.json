@@ -1,32 +1,32 @@
 {
-  "timestamp": "2026-09-03 07:23:22 IST",
+  "timestamp": "2026-09-03 16:38:02 IST",
   "nse_live": false,
-  "spot": 23920.4,
+  "spot": 23873.45,
   "futures": {
-    "price": 23935.4,
+    "price": 23888.45,
     "basis_pct": 0.063
   },
   "bias": {
-    "score": -14,
-    "sentiment": "Neutral / Rangebound",
-    "conviction": 57,
+    "score": -29,
+    "sentiment": "Moderately Bearish",
+    "conviction": 64,
     "invalidation": 23933,
     "factors": {
       "pcr_signal": -25,
       "basis_signal": 6,
       "vix_signal": 0,
-      "cpr_signal": 15,
+      "cpr_signal": 0,
       "maxpain_signal": 0,
       "macro_signal": -10
     }
   },
   "expected_range": {
-    "low": 23709,
-    "high": 24131,
+    "low": 23662,
+    "high": 24084,
     "band_pts": 422
   },
   "volatility": {
-    "vix": 11.44,
+    "vix": 11.34,
     "vix_change": 0.0,
     "atm_iv": 14.0,
     "iv_rank": 5,
@@ -35,9 +35,9 @@
   "derivatives": {
     "pcr_oi": 0.74,
     "pcr_chg": 0.53,
-    "atm_strike": 23900,
-    "max_pain": 23900,
-    "max_pain_dist": -20,
+    "atm_strike": 23850,
+    "max_pain": 23850,
+    "max_pain_dist": -23,
     "gex_flip": 23885,
     "top_oi_delta": []
   },
@@ -56,23 +56,23 @@
     "cam_l4": 23844.24
   },
   "macros": {
-    "dxy": 99.23,
-    "crude": 94.76,
-    "us10y": 4.8,
-    "usdinr": 94.46
+    "dxy": 98.88,
+    "crude": 95.63,
+    "us10y": 4.74,
+    "usdinr": 94.47
   },
   "strategy": {
-    "name": "Iron Condor",
-    "type": "Non-Directional (Neutral Bias + Theta Decay)",
-    "legs": "Sell 24100 CE / Buy 24200 CE  +  Sell 23700 PE / Buy 23600 PE",
-    "entry": "09:30 to 10:00 AM after Initial Balance forms",
-    "target": "60-70% of max premium collected",
-    "sl": "Any short leg breaches its strike",
-    "rr": "1:1.5",
+    "name": "Bear Put Debit Spread",
+    "type": "Buy Premium (IV is Cheap)",
+    "legs": "Buy 23850 PE / Sell 23650 PE",
+    "entry": "09:20 to 09:45 AM on VWAP pullback",
+    "target": "Rs 140-160",
+    "sl": "Rs 40-50",
+    "rr": "1:2.5 to 1:3.0",
     "greeks": {
-      "delta": 0.02,
-      "theta": 18.0,
-      "vega": -6.2
+      "delta": -0.32,
+      "theta": 8.5,
+      "vega": -2.1
     }
   }
 }
