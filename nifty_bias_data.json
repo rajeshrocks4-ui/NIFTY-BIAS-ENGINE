@@ -1,43 +1,43 @@
 {
-  "timestamp": "2026-09-03 16:38:02 IST",
+  "timestamp": "2026-09-04 07:25:47 IST",
   "nse_live": false,
-  "spot": 23873.45,
+  "spot": 23937.9,
   "futures": {
-    "price": 23888.45,
+    "price": 23952.9,
     "basis_pct": 0.063
   },
   "bias": {
-    "score": -29,
-    "sentiment": "Moderately Bearish",
-    "conviction": 64,
+    "score": -14,
+    "sentiment": "Neutral / Rangebound",
+    "conviction": 57,
     "invalidation": 23933,
     "factors": {
       "pcr_signal": -25,
       "basis_signal": 6,
       "vix_signal": 0,
-      "cpr_signal": 0,
+      "cpr_signal": 15,
       "maxpain_signal": 0,
       "macro_signal": -10
     }
   },
   "expected_range": {
-    "low": 23662,
-    "high": 24084,
+    "low": 23727,
+    "high": 24149,
     "band_pts": 422
   },
   "volatility": {
-    "vix": 11.34,
+    "vix": 10.8,
     "vix_change": 0.0,
     "atm_iv": 14.0,
-    "iv_rank": 5,
+    "iv_rank": 3,
     "regime": "Cheap IV (Favor Debit Spreads)"
   },
   "derivatives": {
     "pcr_oi": 0.74,
     "pcr_chg": 0.53,
-    "atm_strike": 23850,
-    "max_pain": 23850,
-    "max_pain_dist": -23,
+    "atm_strike": 23950,
+    "max_pain": 23950,
+    "max_pain_dist": 12,
     "gex_flip": 23885,
     "top_oi_delta": []
   },
@@ -56,23 +56,23 @@
     "cam_l4": 23844.24
   },
   "macros": {
-    "dxy": 98.88,
-    "crude": 95.63,
-    "us10y": 4.74,
-    "usdinr": 94.47
+    "dxy": 99.03,
+    "crude": 95.85,
+    "us10y": 4.8,
+    "usdinr": 94.48
   },
   "strategy": {
-    "name": "Bear Put Debit Spread",
-    "type": "Buy Premium (IV is Cheap)",
-    "legs": "Buy 23850 PE / Sell 23650 PE",
-    "entry": "09:20 to 09:45 AM on VWAP pullback",
-    "target": "Rs 140-160",
-    "sl": "Rs 40-50",
-    "rr": "1:2.5 to 1:3.0",
+    "name": "Iron Condor",
+    "type": "Non-Directional (Neutral Bias + Theta Decay)",
+    "legs": "Sell 24150 CE / Buy 24250 CE  +  Sell 23750 PE / Buy 23650 PE",
+    "entry": "09:30 to 10:00 AM after Initial Balance forms",
+    "target": "60-70% of max premium collected",
+    "sl": "Any short leg breaches its strike",
+    "rr": "1:1.5",
     "greeks": {
-      "delta": -0.32,
-      "theta": 8.5,
-      "vega": -2.1
+      "delta": 0.02,
+      "theta": 18.0,
+      "vega": -6.2
     }
   }
 }
