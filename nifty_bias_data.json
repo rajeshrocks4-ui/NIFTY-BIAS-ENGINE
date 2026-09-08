@@ -1,16 +1,16 @@
 {
-  "timestamp": "2026-09-07 17:52:28 IST",
+  "timestamp": "2026-09-08 07:26:56 IST",
   "nse_live": false,
-  "spot": 23779.15,
+  "spot": 23659.35,
   "futures": {
-    "price": 23794.15,
+    "price": 23674.35,
     "basis_pct": 0.063
   },
   "bias": {
     "score": -44,
     "sentiment": "Strongly Bearish",
     "conviction": 72,
-    "invalidation": 23955,
+    "invalidation": 23831,
     "factors": {
       "pcr_signal": -25,
       "basis_signal": 6,
@@ -21,12 +21,12 @@
     }
   },
   "expected_range": {
-    "low": 23569,
-    "high": 23989,
-    "band_pts": 420
+    "low": 23450,
+    "high": 23868,
+    "band_pts": 418
   },
   "volatility": {
-    "vix": 11.16,
+    "vix": 11.17,
     "vix_change": 0.0,
     "atm_iv": 14.0,
     "iv_rank": 4,
@@ -35,36 +35,36 @@
   "derivatives": {
     "pcr_oi": 0.74,
     "pcr_chg": 0.53,
-    "atm_strike": 23800,
-    "max_pain": 23800,
-    "max_pain_dist": 21,
-    "gex_flip": 23922,
+    "atm_strike": 23650,
+    "max_pain": 23650,
+    "max_pain_dist": -9,
+    "gex_flip": 23795,
     "top_oi_delta": []
   },
   "cpr": {
-    "pivot": 23933.1,
-    "tc": 23915.4,
-    "bc": 23950.8,
-    "width": 35.4,
-    "type": "Medium CPR",
-    "pdh": 24005.75,
-    "pdl": 23895.85,
-    "pdc": 23897.7,
-    "cam_h4": 23958.15,
-    "cam_h3": 23927.92,
-    "cam_l3": 23867.48,
-    "cam_l4": 23837.26
+    "pivot": 23802.35,
+    "tc": 23790.75,
+    "bc": 23813.95,
+    "width": 23.2,
+    "type": "Narrow CPR (Trending Day Alert)",
+    "pdh": 23890.0,
+    "pdl": 23737.9,
+    "pdc": 23779.15,
+    "cam_h4": 23862.81,
+    "cam_h3": 23820.98,
+    "cam_l3": 23737.32,
+    "cam_l4": 23695.5
   },
   "macros": {
     "dxy": 98.9,
-    "crude": 96.28,
+    "crude": 98.7,
     "us10y": 4.78,
-    "usdinr": 94.47
+    "usdinr": 94.74
   },
   "strategy": {
     "name": "Bear Put Debit Spread",
     "type": "Buy Premium (IV is Cheap)",
-    "legs": "Buy 23800 PE / Sell 23600 PE",
+    "legs": "Buy 23650 PE / Sell 23450 PE",
     "entry": "09:20 to 09:45 AM on VWAP pullback",
     "target": "Rs 140-160",
     "sl": "Rs 40-50",
