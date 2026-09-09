@@ -1,9 +1,9 @@
 {
-  "timestamp": "2026-09-09 07:34:46 IST",
+  "timestamp": "2026-09-09 16:50:37 IST",
   "nse_live": false,
-  "spot": 23545.4,
+  "spot": 23431.5,
   "futures": {
-    "price": 23560.4,
+    "price": 23446.5,
     "basis_pct": 0.064
   },
   "bias": {
@@ -21,23 +21,23 @@
     }
   },
   "expected_range": {
-    "low": 23337,
-    "high": 23753,
-    "band_pts": 416
+    "low": 23224,
+    "high": 23638,
+    "band_pts": 414
   },
   "volatility": {
-    "vix": 11.56,
+    "vix": 11.92,
     "vix_change": 0.0,
     "atm_iv": 14.0,
-    "iv_rank": 6,
+    "iv_rank": 7,
     "regime": "Cheap IV (Favor Debit Spreads)"
   },
   "derivatives": {
     "pcr_oi": 0.74,
     "pcr_chg": 0.53,
-    "atm_strike": 23550,
-    "max_pain": 23550,
-    "max_pain_dist": 5,
+    "atm_strike": 23450,
+    "max_pain": 23450,
+    "max_pain_dist": 18,
     "gex_flip": 23661,
     "top_oi_delta": []
   },
@@ -56,15 +56,15 @@
     "cam_l4": 23560.38
   },
   "macros": {
-    "dxy": 98.7,
-    "crude": 100.04,
-    "us10y": 4.81,
-    "usdinr": 95.13
+    "dxy": 98.78,
+    "crude": 100.61,
+    "us10y": 4.85,
+    "usdinr": 95.1
   },
   "strategy": {
     "name": "Bear Put Debit Spread",
     "type": "Buy Premium (IV is Cheap)",
-    "legs": "Buy 23550 PE / Sell 23350 PE",
+    "legs": "Buy 23450 PE / Sell 23250 PE",
     "entry": "09:20 to 09:45 AM on VWAP pullback",
     "target": "Rs 140-160",
     "sl": "Rs 40-50",
