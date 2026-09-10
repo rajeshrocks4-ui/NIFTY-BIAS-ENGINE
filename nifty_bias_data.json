@@ -1,16 +1,16 @@
 {
-  "timestamp": "2026-09-09 16:50:37 IST",
+  "timestamp": "2026-09-10 07:31:34 IST",
   "nse_live": false,
-  "spot": 23431.5,
+  "spot": 23434.55,
   "futures": {
-    "price": 23446.5,
+    "price": 23449.55,
     "basis_pct": 0.064
   },
   "bias": {
     "score": -44,
     "sentiment": "Strongly Bearish",
     "conviction": 72,
-    "invalidation": 23694,
+    "invalidation": 23495,
     "factors": {
       "pcr_signal": -25,
       "basis_signal": 6,
@@ -21,12 +21,12 @@
     }
   },
   "expected_range": {
-    "low": 23224,
-    "high": 23638,
+    "low": 23228,
+    "high": 23642,
     "band_pts": 414
   },
   "volatility": {
-    "vix": 11.92,
+    "vix": 11.84,
     "vix_change": 0.0,
     "atm_iv": 14.0,
     "iv_rank": 7,
@@ -37,29 +37,29 @@
     "pcr_chg": 0.53,
     "atm_strike": 23450,
     "max_pain": 23450,
-    "max_pain_dist": 18,
-    "gex_flip": 23661,
+    "max_pain_dist": 15,
+    "gex_flip": 23464,
     "top_oi_delta": []
   },
   "cpr": {
-    "pivot": 23672.38,
-    "tc": 23653.73,
-    "bc": 23691.03,
-    "width": 37.3,
+    "pivot": 23478.18,
+    "tc": 23454.83,
+    "bc": 23501.53,
+    "width": 46.7,
     "type": "Medium CPR",
-    "pdh": 23758.95,
-    "pdl": 23623.1,
-    "pdc": 23635.1,
-    "cam_h4": 23709.82,
-    "cam_h3": 23672.46,
-    "cam_l3": 23597.74,
-    "cam_l4": 23560.38
+    "pdh": 23571.55,
+    "pdl": 23431.5,
+    "pdc": 23431.5,
+    "cam_h4": 23508.53,
+    "cam_h3": 23470.01,
+    "cam_l3": 23392.99,
+    "cam_l4": 23354.47
   },
   "macros": {
-    "dxy": 98.78,
-    "crude": 100.61,
-    "us10y": 4.85,
-    "usdinr": 95.1
+    "dxy": 98.75,
+    "crude": 100.88,
+    "us10y": 4.84,
+    "usdinr": 95.28
   },
   "strategy": {
     "name": "Bear Put Debit Spread",
