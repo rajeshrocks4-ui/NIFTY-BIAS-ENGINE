@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-09-11 16:42:06 IST",
+  "timestamp": "2026-09-14 08:07:29 IST",
   "nse_live": false,
   "spot": 23398.1,
   "futures": {
@@ -26,7 +26,7 @@
     "band_pts": 412
   },
   "volatility": {
-    "vix": 12.28,
+    "vix": 12.29,
     "vix_change": 0.0,
     "atm_iv": 14.0,
     "iv_rank": 9,
@@ -56,9 +56,9 @@
     "cam_l4": 23414.63
   },
   "macros": {
-    "dxy": 99.07,
-    "crude": 105.53,
-    "us10y": 4.95,
+    "dxy": 99.5,
+    "crude": 107.67,
+    "us10y": 4.97,
     "usdinr": 95.54
   },
   "strategy": {
