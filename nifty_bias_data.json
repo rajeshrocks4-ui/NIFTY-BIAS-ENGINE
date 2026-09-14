@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-09-14 08:07:29 IST",
+  "timestamp": "2026-09-14 18:08:57 IST",
   "nse_live": false,
   "spot": 23398.1,
   "futures": {
@@ -56,10 +56,10 @@
     "cam_l4": 23414.63
   },
   "macros": {
-    "dxy": 99.5,
-    "crude": 107.67,
-    "us10y": 4.97,
-    "usdinr": 95.54
+    "dxy": 99.42,
+    "crude": 105.85,
+    "us10y": 4.95,
+    "usdinr": 95.55
   },
   "strategy": {
     "name": "Bear Put Debit Spread",
