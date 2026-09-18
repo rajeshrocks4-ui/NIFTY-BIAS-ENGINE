@@ -1,16 +1,16 @@
 {
-  "timestamp": "2026-09-17 17:13:01 IST",
+  "timestamp": "2026-09-18 07:37:59 IST",
   "nse_live": false,
-  "spot": 23270.6,
+  "spot": 23335.45,
   "futures": {
-    "price": 23285.6,
+    "price": 23350.45,
     "basis_pct": 0.064
   },
   "bias": {
     "score": -14,
     "sentiment": "Neutral / Rangebound",
     "conviction": 57,
-    "invalidation": 23252,
+    "invalidation": 23313,
     "factors": {
       "pcr_signal": -25,
       "basis_signal": 6,
@@ -21,50 +21,50 @@
     }
   },
   "expected_range": {
-    "low": 23066,
-    "high": 23476,
-    "band_pts": 410
+    "low": 23129,
+    "high": 23541,
+    "band_pts": 412
   },
   "volatility": {
-    "vix": 12.29,
+    "vix": 11.54,
     "vix_change": 0.0,
     "atm_iv": 14.0,
-    "iv_rank": 9,
+    "iv_rank": 6,
     "regime": "Cheap IV (Favor Debit Spreads)"
   },
   "derivatives": {
     "pcr_oi": 0.74,
     "pcr_chg": 0.53,
-    "atm_strike": 23250,
-    "max_pain": 23250,
-    "max_pain_dist": -21,
-    "gex_flip": 23210,
+    "atm_strike": 23350,
+    "max_pain": 23350,
+    "max_pain_dist": 15,
+    "gex_flip": 23274,
     "top_oi_delta": []
   },
   "cpr": {
-    "pivot": 23206.15,
-    "tc": 23211.88,
-    "bc": 23200.42,
-    "width": 11.46,
+    "pivot": 23275.93,
+    "tc": 23273.26,
+    "bc": 23278.6,
+    "width": 5.34,
     "type": "Narrow CPR (Trending Day Alert)",
-    "pdh": 23284.75,
-    "pdl": 23116.1,
-    "pdc": 23217.6,
-    "cam_h4": 23310.36,
-    "cam_h3": 23263.98,
-    "cam_l3": 23171.22,
-    "cam_l4": 23124.84
+    "pdh": 23363.55,
+    "pdl": 23193.65,
+    "pdc": 23270.6,
+    "cam_h4": 23364.04,
+    "cam_h3": 23317.32,
+    "cam_l3": 23223.88,
+    "cam_l4": 23177.15
   },
   "macros": {
-    "dxy": 100.26,
-    "crude": 104.58,
+    "dxy": 100.32,
+    "crude": 102.11,
     "us10y": 4.95,
-    "usdinr": 95.92
+    "usdinr": 95.82
   },
   "strategy": {
     "name": "Iron Condor",
     "type": "Non-Directional (Neutral Bias + Theta Decay)",
-    "legs": "Sell 23450 CE / Buy 23550 CE  +  Sell 23050 PE / Buy 22950 PE",
+    "legs": "Sell 23550 CE / Buy 23650 CE  +  Sell 23150 PE / Buy 23050 PE",
     "entry": "09:30 to 10:00 AM after Initial Balance forms",
     "target": "60-70% of max premium collected",
     "sl": "Any short leg breaches its strike",
