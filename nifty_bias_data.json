@@ -1,43 +1,43 @@
 {
-  "timestamp": "2026-09-22 17:11:27 IST",
+  "timestamp": "2026-09-23 07:59:05 IST",
   "nse_live": false,
-  "spot": 23329.0,
+  "spot": 23447.2,
   "futures": {
-    "price": 23344.0,
+    "price": 23462.2,
     "basis_pct": 0.064
   },
   "bias": {
-    "score": -44,
-    "sentiment": "Strongly Bearish",
-    "conviction": 72,
+    "score": -14,
+    "sentiment": "Neutral / Rangebound",
+    "conviction": 57,
     "invalidation": 23446,
     "factors": {
       "pcr_signal": -25,
       "basis_signal": 6,
       "vix_signal": 0,
-      "cpr_signal": -15,
+      "cpr_signal": 15,
       "maxpain_signal": 0,
       "macro_signal": -10
     }
   },
   "expected_range": {
-    "low": 23123,
-    "high": 23535,
-    "band_pts": 412
+    "low": 23240,
+    "high": 23654,
+    "band_pts": 414
   },
   "volatility": {
-    "vix": 11.0,
+    "vix": 10.45,
     "vix_change": 0.0,
     "atm_iv": 14.0,
-    "iv_rank": 4,
+    "iv_rank": 1,
     "regime": "Cheap IV (Favor Debit Spreads)"
   },
   "derivatives": {
     "pcr_oi": 0.74,
     "pcr_chg": 0.53,
-    "atm_strike": 23350,
-    "max_pain": 23350,
-    "max_pain_dist": 21,
+    "atm_strike": 23450,
+    "max_pain": 23450,
+    "max_pain_dist": 3,
     "gex_flip": 23403,
     "top_oi_delta": []
   },
@@ -56,23 +56,23 @@
     "cam_l4": 23330.7
   },
   "macros": {
-    "dxy": 100.64,
-    "crude": 100.12,
-    "us10y": 4.97,
-    "usdinr": 95.58
+    "dxy": 100.78,
+    "crude": 95.43,
+    "us10y": 4.96,
+    "usdinr": 95.71
   },
   "strategy": {
-    "name": "Bear Put Debit Spread",
-    "type": "Buy Premium (IV is Cheap)",
-    "legs": "Buy 23350 PE / Sell 23150 PE",
-    "entry": "09:20 to 09:45 AM on VWAP pullback",
-    "target": "Rs 140-160",
-    "sl": "Rs 40-50",
-    "rr": "1:2.5 to 1:3.0",
+    "name": "Iron Condor",
+    "type": "Non-Directional (Neutral Bias + Theta Decay)",
+    "legs": "Sell 23650 CE / Buy 23750 CE  +  Sell 23250 PE / Buy 23150 PE",
+    "entry": "09:30 to 10:00 AM after Initial Balance forms",
+    "target": "60-70% of max premium collected",
+    "sl": "Any short leg breaches its strike",
+    "rr": "1:1.5",
     "greeks": {
-      "delta": -0.32,
-      "theta": 8.5,
-      "vega": -2.1
+      "delta": 0.02,
+      "theta": 18.0,
+      "vega": -6.2
     }
   }
 }
