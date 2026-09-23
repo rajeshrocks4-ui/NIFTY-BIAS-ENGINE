@@ -1,9 +1,9 @@
 {
-  "timestamp": "2026-09-23 07:59:05 IST",
+  "timestamp": "2026-09-23 17:24:18 IST",
   "nse_live": false,
-  "spot": 23447.2,
+  "spot": 23446.8,
   "futures": {
-    "price": 23462.2,
+    "price": 23461.8,
     "basis_pct": 0.064
   },
   "bias": {
@@ -26,7 +26,7 @@
     "band_pts": 414
   },
   "volatility": {
-    "vix": 10.45,
+    "vix": 10.35,
     "vix_change": 0.0,
     "atm_iv": 14.0,
     "iv_rank": 1,
@@ -56,10 +56,10 @@
     "cam_l4": 23330.7
   },
   "macros": {
-    "dxy": 100.78,
-    "crude": 95.43,
-    "us10y": 4.96,
-    "usdinr": 95.71
+    "dxy": 101.22,
+    "crude": 97.56,
+    "us10y": 5.12,
+    "usdinr": 95.73
   },
   "strategy": {
     "name": "Iron Condor",
