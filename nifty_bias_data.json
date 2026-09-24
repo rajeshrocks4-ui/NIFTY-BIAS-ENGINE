@@ -1,78 +1,78 @@
 {
-  "timestamp": "2026-09-23 17:24:18 IST",
+  "timestamp": "2026-09-24 07:49:52 IST",
   "nse_live": false,
-  "spot": 23446.8,
+  "spot": 23179.65,
   "futures": {
-    "price": 23461.8,
-    "basis_pct": 0.064
+    "price": 23194.65,
+    "basis_pct": 0.065
   },
   "bias": {
-    "score": -14,
-    "sentiment": "Neutral / Rangebound",
-    "conviction": 57,
-    "invalidation": 23446,
+    "score": -44,
+    "sentiment": "Strongly Bearish",
+    "conviction": 72,
+    "invalidation": 23474,
     "factors": {
       "pcr_signal": -25,
       "basis_signal": 6,
       "vix_signal": 0,
-      "cpr_signal": 15,
+      "cpr_signal": -15,
       "maxpain_signal": 0,
       "macro_signal": -10
     }
   },
   "expected_range": {
-    "low": 23240,
-    "high": 23654,
-    "band_pts": 414
+    "low": 22976,
+    "high": 23384,
+    "band_pts": 408
   },
   "volatility": {
-    "vix": 10.35,
+    "vix": 11.59,
     "vix_change": 0.0,
     "atm_iv": 14.0,
-    "iv_rank": 1,
+    "iv_rank": 6,
     "regime": "Cheap IV (Favor Debit Spreads)"
   },
   "derivatives": {
     "pcr_oi": 0.74,
     "pcr_chg": 0.53,
-    "atm_strike": 23450,
-    "max_pain": 23450,
-    "max_pain_dist": 3,
-    "gex_flip": 23403,
+    "atm_strike": 23200,
+    "max_pain": 23200,
+    "max_pain_dist": 20,
+    "gex_flip": 23429,
     "top_oi_delta": []
   },
   "cpr": {
-    "pivot": 23398.63,
-    "tc": 23406.46,
-    "bc": 23390.8,
-    "width": 15.66,
+    "pivot": 23421.08,
+    "tc": 23433.94,
+    "bc": 23408.22,
+    "width": 25.72,
     "type": "Narrow CPR (Trending Day Alert)",
-    "pdh": 23466.8,
-    "pdl": 23314.8,
-    "pdc": 23414.3,
-    "cam_h4": 23497.9,
-    "cam_h3": 23456.1,
-    "cam_l3": 23372.5,
-    "cam_l4": 23330.7
+    "pdh": 23466.9,
+    "pdl": 23349.55,
+    "pdc": 23446.8,
+    "cam_h4": 23511.34,
+    "cam_h3": 23479.07,
+    "cam_l3": 23414.53,
+    "cam_l4": 23382.26
   },
   "macros": {
-    "dxy": 101.22,
-    "crude": 97.56,
-    "us10y": 5.12,
-    "usdinr": 95.73
+    "dxy": 101.07,
+    "crude": 98.23,
+    "us10y": 5.11,
+    "usdinr": 95.9
   },
   "strategy": {
-    "name": "Iron Condor",
-    "type": "Non-Directional (Neutral Bias + Theta Decay)",
-    "legs": "Sell 23650 CE / Buy 23750 CE  +  Sell 23250 PE / Buy 23150 PE",
-    "entry": "09:30 to 10:00 AM after Initial Balance forms",
-    "target": "60-70% of max premium collected",
-    "sl": "Any short leg breaches its strike",
-    "rr": "1:1.5",
+    "name": "Bear Put Debit Spread",
+    "type": "Buy Premium (IV is Cheap)",
+    "legs": "Buy 23200 PE / Sell 23000 PE",
+    "entry": "09:20 to 09:45 AM on VWAP pullback",
+    "target": "Rs 140-160",
+    "sl": "Rs 40-50",
+    "rr": "1:2.5 to 1:3.0",
     "greeks": {
-      "delta": 0.02,
-      "theta": 18.0,
-      "vega": -6.2
+      "delta": -0.32,
+      "theta": 8.5,
+      "vega": -2.1
     }
   }
 }
