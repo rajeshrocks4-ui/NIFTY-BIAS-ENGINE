@@ -1,16 +1,16 @@
 {
-  "timestamp": "2026-10-06 09:27:18 IST",
+  "timestamp": "2026-10-06 18:33:31 IST",
   "nse_live": false,
-  "spot": 22709.4,
+  "spot": 22555.75,
   "futures": {
-    "price": 22724.4,
-    "basis_pct": 0.066
+    "price": 22570.75,
+    "basis_pct": 0.067
   },
   "bias": {
     "score": -14,
     "sentiment": "Neutral / Rangebound",
     "conviction": 57,
-    "invalidation": 22580,
+    "invalidation": 22459,
     "factors": {
       "pcr_signal": -25,
       "basis_signal": 6,
@@ -21,50 +21,50 @@
     }
   },
   "expected_range": {
-    "low": 22509,
-    "high": 22909,
-    "band_pts": 400
+    "low": 22357,
+    "high": 22755,
+    "band_pts": 398
   },
   "volatility": {
-    "vix": 13.66,
+    "vix": 14.78,
     "vix_change": 0.0,
     "atm_iv": 14.0,
-    "iv_rank": 14,
+    "iv_rank": 19,
     "regime": "Cheap IV (Favor Debit Spreads)"
   },
   "derivatives": {
     "pcr_oi": 0.74,
     "pcr_chg": 0.53,
-    "atm_strike": 22700,
-    "max_pain": 22700,
-    "max_pain_dist": -9,
-    "gex_flip": 22534,
+    "atm_strike": 22550,
+    "max_pain": 22550,
+    "max_pain_dist": -6,
+    "gex_flip": 22418,
     "top_oi_delta": []
   },
   "cpr": {
-    "pivot": 22524.88,
-    "tc": 22540.31,
-    "bc": 22509.45,
-    "width": 30.86,
-    "type": "Medium CPR",
-    "pdh": 22621.8,
-    "pdl": 22397.1,
-    "pdc": 22555.75,
-    "cam_h4": 22679.33,
-    "cam_h3": 22617.54,
-    "cam_l3": 22493.96,
-    "cam_l4": 22432.17
+    "pivot": 22416.62,
+    "tc": 22419.29,
+    "bc": 22413.95,
+    "width": 5.34,
+    "type": "Narrow CPR (Trending Day Alert)",
+    "pdh": 22610.6,
+    "pdl": 22217.3,
+    "pdc": 22421.95,
+    "cam_h4": 22638.26,
+    "cam_h3": 22530.11,
+    "cam_l3": 22313.79,
+    "cam_l4": 22205.64
   },
   "macros": {
-    "dxy": 102.06,
-    "crude": 98.59,
-    "us10y": 5.31,
-    "usdinr": 96.42
+    "dxy": 101.83,
+    "crude": 100.41,
+    "us10y": 5.26,
+    "usdinr": 96.41
   },
   "strategy": {
     "name": "Iron Condor",
     "type": "Non-Directional (Neutral Bias + Theta Decay)",
-    "legs": "Sell 22900 CE / Buy 23000 CE  +  Sell 22500 PE / Buy 22400 PE",
+    "legs": "Sell 22750 CE / Buy 22850 CE  +  Sell 22350 PE / Buy 22250 PE",
     "entry": "09:30 to 10:00 AM after Initial Balance forms",
     "target": "60-70% of max premium collected",
     "sl": "Any short leg breaches its strike",
