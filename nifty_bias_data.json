@@ -1,16 +1,16 @@
 {
-  "timestamp": "2026-10-08 09:30:44 IST",
+  "timestamp": "2026-10-08 18:58:34 IST",
   "nse_live": false,
-  "spot": 22204.7,
+  "spot": 22603.05,
   "futures": {
-    "price": 22219.7,
-    "basis_pct": 0.068
+    "price": 22618.05,
+    "basis_pct": 0.066
   },
   "bias": {
     "score": -44,
     "sentiment": "Strongly Bearish",
     "conviction": 72,
-    "invalidation": 22653,
+    "invalidation": 22780,
     "factors": {
       "pcr_signal": -25,
       "basis_signal": 6,
@@ -21,50 +21,50 @@
     }
   },
   "expected_range": {
-    "low": 22009,
-    "high": 22401,
-    "band_pts": 392
+    "low": 22404,
+    "high": 22802,
+    "band_pts": 398
   },
   "volatility": {
-    "vix": 15.45,
+    "vix": 13.89,
     "vix_change": 0.0,
     "atm_iv": 14.0,
-    "iv_rank": 21,
+    "iv_rank": 15,
     "regime": "Cheap IV (Favor Debit Spreads)"
   },
   "derivatives": {
     "pcr_oi": 0.74,
     "pcr_chg": 0.53,
-    "atm_strike": 22200,
-    "max_pain": 22200,
-    "max_pain_dist": -5,
-    "gex_flip": 22617,
+    "atm_strike": 22600,
+    "max_pain": 22600,
+    "max_pain_dist": -3,
+    "gex_flip": 22726,
     "top_oi_delta": []
   },
   "cpr": {
-    "pivot": 22622.33,
-    "tc": 22612.69,
-    "bc": 22631.97,
-    "width": 19.28,
-    "type": "Narrow CPR (Trending Day Alert)",
-    "pdh": 22717.65,
-    "pdl": 22546.3,
-    "pdc": 22603.05,
-    "cam_h4": 22697.29,
-    "cam_h3": 22650.17,
-    "cam_l3": 22555.93,
-    "cam_l4": 22508.81
+    "pivot": 22704.6,
+    "tc": 22740.35,
+    "bc": 22668.85,
+    "width": 71.5,
+    "type": "Wide CPR (Rangebound Day)",
+    "pdh": 22776.1,
+    "pdl": 22561.6,
+    "pdc": 22776.1,
+    "cam_h4": 22894.07,
+    "cam_h3": 22835.09,
+    "cam_l3": 22717.11,
+    "cam_l4": 22658.12
   },
   "macros": {
-    "dxy": 102.36,
-    "crude": 104.26,
-    "us10y": 5.28,
-    "usdinr": 96.79
+    "dxy": 102.15,
+    "crude": 104.39,
+    "us10y": 5.23,
+    "usdinr": 96.77
   },
   "strategy": {
     "name": "Bear Put Debit Spread",
     "type": "Buy Premium (IV is Cheap)",
-    "legs": "Buy 22200 PE / Sell 22000 PE",
+    "legs": "Buy 22600 PE / Sell 22400 PE",
     "entry": "09:20 to 09:45 AM on VWAP pullback",
     "target": "Rs 140-160",
     "sl": "Rs 40-50",
