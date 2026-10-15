@@ -1,9 +1,9 @@
 {
-  "timestamp": "2026-10-15 07:44:30 IST",
+  "timestamp": "2026-10-15 17:16:49 IST",
   "nse_live": false,
-  "spot": 23016.9,
+  "spot": 22997.35,
   "futures": {
-    "price": 23031.9,
+    "price": 23012.35,
     "basis_pct": 0.065
   },
   "bias": {
@@ -21,15 +21,15 @@
     }
   },
   "expected_range": {
-    "low": 22814,
-    "high": 23220,
+    "low": 22794,
+    "high": 23200,
     "band_pts": 406
   },
   "volatility": {
-    "vix": 14.79,
+    "vix": 14.02,
     "vix_change": 0.0,
     "atm_iv": 14.0,
-    "iv_rank": 19,
+    "iv_rank": 16,
     "regime": "Cheap IV (Favor Debit Spreads)"
   },
   "derivatives": {
@@ -37,7 +37,7 @@
     "pcr_chg": 0.53,
     "atm_strike": 23000,
     "max_pain": 23000,
-    "max_pain_dist": -17,
+    "max_pain_dist": 3,
     "gex_flip": 22639,
     "top_oi_delta": []
   },
@@ -56,10 +56,10 @@
     "cam_l4": 22513.25
   },
   "macros": {
-    "dxy": 102.07,
-    "crude": 103.96,
-    "us10y": 5.19,
-    "usdinr": 94.96
+    "dxy": 102.09,
+    "crude": 106.12,
+    "us10y": 5.09,
+    "usdinr": 95.04
   },
   "strategy": {
     "name": "Iron Condor",
