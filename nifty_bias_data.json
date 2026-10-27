@@ -1,9 +1,9 @@
 {
-  "timestamp": "2026-10-27 08:23:58 IST",
+  "timestamp": "2026-10-27 18:11:22 IST",
   "nse_live": false,
-  "spot": 22707.95,
+  "spot": 22749.75,
   "futures": {
-    "price": 22722.95,
+    "price": 22764.75,
     "basis_pct": 0.066
   },
   "bias": {
@@ -21,23 +21,23 @@
     }
   },
   "expected_range": {
-    "low": 22508,
-    "high": 22908,
-    "band_pts": 400
+    "low": 22549,
+    "high": 22951,
+    "band_pts": 402
   },
   "volatility": {
-    "vix": 16.7,
+    "vix": 16.4,
     "vix_change": 0.0,
     "atm_iv": 14.0,
-    "iv_rank": 26,
+    "iv_rank": 25,
     "regime": "Cheap IV (Favor Debit Spreads)"
   },
   "derivatives": {
     "pcr_oi": 0.74,
     "pcr_chg": 0.53,
-    "atm_strike": 22700,
-    "max_pain": 22700,
-    "max_pain_dist": -8,
+    "atm_strike": 22750,
+    "max_pain": 22750,
+    "max_pain_dist": 0,
     "gex_flip": 22668,
     "top_oi_delta": []
   },
@@ -56,15 +56,15 @@
     "cam_l4": 22551.98
   },
   "macros": {
-    "dxy": 102.16,
-    "crude": 111.35,
+    "dxy": 102.33,
+    "crude": 109.54,
     "us10y": 4.99,
-    "usdinr": 95.14
+    "usdinr": 95.11
   },
   "strategy": {
     "name": "Iron Condor",
     "type": "Non-Directional (Neutral Bias + Theta Decay)",
-    "legs": "Sell 22900 CE / Buy 23000 CE  +  Sell 22500 PE / Buy 22400 PE",
+    "legs": "Sell 22950 CE / Buy 23050 CE  +  Sell 22550 PE / Buy 22450 PE",
     "entry": "09:30 to 10:00 AM after Initial Balance forms",
     "target": "60-70% of max premium collected",
     "sl": "Any short leg breaches its strike",
