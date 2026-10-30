@@ -1,9 +1,9 @@
 {
-  "timestamp": "2026-10-30 09:02:57 IST",
+  "timestamp": "2026-10-30 18:08:44 IST",
   "nse_live": false,
-  "spot": 23063.15,
+  "spot": 23053.1,
   "futures": {
-    "price": 23078.15,
+    "price": 23068.1,
     "basis_pct": 0.065
   },
   "bias": {
@@ -21,12 +21,12 @@
     }
   },
   "expected_range": {
-    "low": 22860,
-    "high": 23266,
+    "low": 22850,
+    "high": 23256,
     "band_pts": 406
   },
   "volatility": {
-    "vix": 15.31,
+    "vix": 15.3,
     "vix_change": 0.0,
     "atm_iv": 14.0,
     "iv_rank": 21,
@@ -37,7 +37,7 @@
     "pcr_chg": 0.53,
     "atm_strike": 23050,
     "max_pain": 23050,
-    "max_pain_dist": -13,
+    "max_pain_dist": -3,
     "gex_flip": 22877,
     "top_oi_delta": []
   },
@@ -56,10 +56,10 @@
     "cam_l4": 22768.89
   },
   "macros": {
-    "dxy": 101.69,
-    "crude": 112.73,
-    "us10y": 4.99,
-    "usdinr": 95.06
+    "dxy": 101.98,
+    "crude": 113.57,
+    "us10y": 4.93,
+    "usdinr": 94.94
   },
   "strategy": {
     "name": "Iron Condor",
