@@ -1,16 +1,16 @@
 {
-  "timestamp": "2026-11-13 19:57:45 IST",
+  "timestamp": "2026-11-16 10:11:45 IST",
   "nse_live": false,
-  "spot": 25299.35,
+  "spot": 25291.1,
   "futures": {
-    "price": 25314.35,
+    "price": 25306.1,
     "basis_pct": 0.059
   },
   "bias": {
     "score": -15,
     "sentiment": "Moderately Bearish",
     "conviction": 57,
-    "invalidation": 25297,
+    "invalidation": 25186,
     "factors": {
       "pcr_signal": -25,
       "basis_signal": 5,
@@ -21,15 +21,15 @@
     }
   },
   "expected_range": {
-    "low": 25076,
-    "high": 25522,
+    "low": 25068,
+    "high": 25514,
     "band_pts": 446
   },
   "volatility": {
-    "vix": 16.62,
+    "vix": 15.7,
     "vix_change": 0.0,
     "atm_iv": 14.0,
-    "iv_rank": 26,
+    "iv_rank": 22,
     "regime": "Cheap IV (Favor Debit Spreads)"
   },
   "derivatives": {
@@ -37,29 +37,29 @@
     "pcr_chg": 0.53,
     "atm_strike": 25300,
     "max_pain": 25300,
-    "max_pain_dist": 1,
-    "gex_flip": 25257,
+    "max_pain_dist": 9,
+    "gex_flip": 25147,
     "top_oi_delta": []
   },
   "cpr": {
-    "pivot": 25258.25,
-    "tc": 25256.65,
-    "bc": 25259.85,
-    "width": 3.2,
+    "pivot": 25148.35,
+    "tc": 25146.32,
+    "bc": 25150.38,
+    "width": 4.06,
     "type": "Narrow CPR (Trending Day Alert)",
-    "pdh": 25424.35,
-    "pdl": 25095.35,
-    "pdc": 25255.05,
-    "cam_h4": 25436.0,
-    "cam_h3": 25345.52,
-    "cam_l3": 25164.58,
-    "cam_l4": 25074.1
+    "pdh": 25246.35,
+    "pdl": 25054.4,
+    "pdc": 25144.3,
+    "cam_h4": 25249.87,
+    "cam_h3": 25197.09,
+    "cam_l3": 25091.51,
+    "cam_l4": 25038.73
   },
   "macros": {
-    "dxy": 103.41,
-    "crude": 95.75,
+    "dxy": 103.52,
+    "crude": 92.83,
     "us10y": 5.15,
-    "usdinr": 94.23
+    "usdinr": 93.92
   },
   "strategy": {
     "name": "Iron Condor",
