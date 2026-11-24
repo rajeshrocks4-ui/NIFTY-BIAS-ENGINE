@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-11-24 12:57:29 IST",
+  "timestamp": "2026-11-24 22:41:39 IST",
   "nse_live": false,
   "spot": 25349.65,
   "futures": {
@@ -56,9 +56,9 @@
     "cam_l4": 25545.62
   },
   "macros": {
-    "dxy": 103.91,
-    "crude": 87.02,
-    "us10y": 4.92,
+    "dxy": 103.84,
+    "crude": 88.5,
+    "us10y": 4.9,
     "usdinr": 92.9
   },
   "strategy": {
